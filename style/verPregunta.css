@@ -1,0 +1,122 @@
+
+#container-ver {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	border-radius: 20px;
+	height: 90%;
+	width: 93%;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 15px;
+}
+
+#container-ver > img {
+	height: 200px;
+	width: auto;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	margin-bottom: 30px;
+}
+
+#container-ver > h2 {
+	font-family: 'Kanit', sans-serif;
+	overflow: hidden;
+}
+
+.respuestas-ver {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 57px;
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+.titulos-ver {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: 616px;
+	margin-top: -63px;
+	margin-left: 20px;
+}
+
+.titulos-ver > h3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.resp {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 49%;
+	height: 100%;
+	overflow-y: hidden;
+	word-break: break-word;
+	font-family: 'Roboto', sans-serif;
+}
+
+.resp > p {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.exp {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	word-break: break-word;
+	font-family: 'Roboto', sans-serif;
+	overflow-y: scroll;
+}
+
+.exp > p {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.divisor-vertical {
+	background-color: black;
+	width: 3px;
+	height: 100%;
+}
+
+#btn-ver-volver {
+	position: absolute;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: -1410px;
+	cursor: pointer;
+	background-color: #E3E3E3;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+	transition: 0.2s;
+}
+
+#btn-ver-volver:hover {
+	background-color: #ffb648;
+	transition: 0.2s;
+}

@@ -1,0 +1,238 @@
+#content {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 6%;
+    height: fit-content;
+    padding: 10px;
+    padding-top: 60px;
+
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: fit-content;
+    padding-top: 60px;
+}
+
+#panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.panel-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3E3E3;
+    border-style: none;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.panel-button > img {
+    height: 30px;
+    width: 30px;
+}
+
+#panel-filtro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	border-radius: 50px;
+	height: 315px;
+	background-color: white;
+}
+
+#interior-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+    width: 91%;
+    background-color: #c0c0c0;
+    border-radius: 35px;
+}
+
+#filtros-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: white;
+}
+
+#interior-panel > h2 {
+	font-family: 'Kanit', sans-serif;
+}
+
+#filtros-container > h3 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: normal;
+}
+
+#filtros-container > select {
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	text-align: center;
+	cursor: pointer;
+	background-color: #E3E3E3;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+	transition: 0.2s;
+}
+
+#filtros-container > button {
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	cursor: pointer;
+	background-color: #E3E3E3;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+	transition: 0.2s;
+}
+
+#filtros-container > button:hover {
+	background-color: #fcb723;
+	transition: 0.2s;
+}
+
+#nuevaPregunta, #editPregunta, #verPregunta, #delPregunta {
+    display: none;
+}
+.paneles {
+    height: 700px;
+    width: 94%;
+    background-color: #c0c0c0;
+    border-radius: 50px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    overflow-y: visible;
+}
+
+.pregunta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 97%;
+    height: 71px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ver:hover {
+    background-color: #e4e4e4;
+    transition: 0.2s;
+}
+
+.edit:hover {
+    background-color: #fff0ae;
+    transition: 0.2s;
+}
+
+.del:hover {
+    background-color: #ffc1c1;
+    transition: 0.2s;
+}
+
+.pregunta:has(:hover) img {
+    background-color: #e4e4e4;
+    height: 171px;
+    width: 230px;
+    transition: 0.2s;
+}
+
+.pregunta > img {
+    height: 71px;
+    width: 130px;
+    transition: 0.2s;
+}
+
+.texto-pregunta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.divisor-vertical-alt {
+    height: 100%;
+    width: 6px;
+    background-color: #c0c0c0;
+}
+
+.texto-pregunta > p {
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}
+
+.cat-pregunta {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    overflow-x: hidden;
+}
+
+.cat-pregunta > p {
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}

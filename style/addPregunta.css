@@ -1,0 +1,66 @@
+#container-add {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #a1a1a1;
+	border-radius: 20px;
+	height: 90%;
+	width: 93%;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 15px;
+}
+
+#container-add > form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	height: 95%;
+	width: 90%;
+}
+
+#container-add > form input, #container-add > form textarea {
+	text-align: center;
+	padding: 5px;
+	height: 50px;
+	background-color: white;
+	border-radius: 20px;
+	border-style: none;
+	resize: none;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+}
+
+#add-titulo, #add-categoria {
+	width: 100%;
+}
+
+.add-resp {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.resp-correcta {
+	width: 100%;
+}
+
+.resp-normal {
+	width: 48%;
+}
+
+#btn-crear-preg {
+	width: 30%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#btn-crear-preg:hover {
+	background-color: #ffd485;
+	transition: 0.2s;
+}

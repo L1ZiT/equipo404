@@ -1,0 +1,79 @@
+#container-del {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border-radius: 20px;
+	height: 90%;
+	width: 93%;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 15px;
+}
+
+#container-del > h2 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: normal;
+}
+
+#container-del > h1 {
+	font-family: 'Kanit', sans-serif;
+	margin-bottom: 20px;
+}
+
+#container-del > img {
+	height: 300px;
+	width: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: black;
+	padding: 15px;
+	border-width: 3px;
+}
+
+#del-preg {
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	cursor: pointer;
+	background-color: #E3E3E3;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+	transition: 0.2s;
+}
+
+#del-preg:hover {
+	background-color: #ff6b6b;
+	transition: 0.2s;
+}
+
+#btn-del-volver {
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	cursor: pointer;
+	background-color: #E3E3E3;
+	font-family: 'Kanit', sans-serif;
+	font-size: large;
+	transition: 0.2s;
+}
+
+#btn-del-volver:hover {
+	background-color: #ffb648;
+	transition: 0.2s;
+}
+
+#botones-del {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+}

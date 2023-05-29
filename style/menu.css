@@ -1,0 +1,95 @@
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+}
+
+.menu-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+	overflow: visible;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.menu-button:hover {
+    background-color: #E3E3E3;
+    transition: 0.2s;
+}
+
+.menu-button > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.active {
+    background-color: #FFA73F;
+}
+
+.login {
+    background-color: black;
+}
+
+.login > a {
+    color: white;
+    transition: 0.2s;
+}
+
+.login:hover > a {
+    color: black;
+    transition: 0.2s;
+}
+
+#seguridad-frank:hover {
+	animation-name: seguridad;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	transform: scale(0.7);
+	transition: 1s;
+}
+
+#seguridad-frank {
+	transition: 1s;
+}
+
+@keyframes seguridad {
+	0%   {transform: rotate(0);}
+	20%  {transform: rotate(90deg);}
+	40%  {transform: rotate(180deg);}
+	60% {transform: rotate(270deg);}
+	80% {transform: rotate(360deg);}
+	100% {transform: rotate(0);}
+}

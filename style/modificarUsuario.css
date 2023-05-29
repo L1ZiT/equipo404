@@ -1,0 +1,65 @@
+#right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 94%;
+    height: fit-content;
+    padding-top: 60px;
+}
+
+#panel-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 30%;
+    background-color: #c0c0c0;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #FFFFFF;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.grupoFormulario{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+#enviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    overflow: hidden;
+    cursor: pointer;
+    /*background-color: #FFFFFF;*/
+    background-color: #DEDEDE;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#enviar:hover{
+  background-color: #FFA73F;
+}
+
+.mensajeErrorPassword
+{
+  background-color: red;
+  color: #000;
+}
